@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background-color: #f5ecb1;
+    margin: 0;
+    padding: 0;
+}
+
+.header-title {
+    text-align: center;
+    padding: 20px;
+    font-size: 2.5em;
+    background-color: #b1cd82;
+    color: #000000;
+    margin: 0 0 5px 0;
+}
+
+.month-checkboxes {
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.month-checkboxes .dash-checklist input[type="checkbox"] {
+    accent-color: #000000;
+}
+
+.month-checkboxes .dash-checklist label {
+    margin-right: 10px;
+}
+
+.filter-card {
+    width: 20%;
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.filter-card label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.filter-card .dropdown {
+    margin-bottom: 20px;
+}
+
+.graph-card {
+    width: 74%;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.linechart-filter-card {
+    width: 20%;
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.linechart-filter-card label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.linechart-dropdown {
+    margin-bottom: 20px;
+}
+
+.pie-chart {
+    width: 30%;
+    background-color: #ffffff;
+    padding: 10px;
+    margin-left: 0px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pie-chart.dropdown {
+    margin-bottom: 40px;
+}
+
+.pie-chart label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.word-cloud {
+    align-self: center;
+    width: auto;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 10px;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    margin-right: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.sentiment-trend {
+    margin-bottom: 1%;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.sentiment-pie {
+    width: 30%;
+    background-color: #ffffff;
+    padding: 10px;
+    margin-left: 0px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.keyword-graph {
+    margin-bottom: 1%;
+    margin-top: 20px;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.keyword-visualization {
+    margin-top: 30px;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-container {
+    margin-bottom: 20px;
+}
+
+.covid-senti {
+    margin-bottom: 1%;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.covid-senti .inline-elements {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.covid-senti .inline-elements > div {
+    flex: 1;
+}
+
+.covid-distribution {
+    margin-bottom: 1%;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.covid-keyword {
+    margin-bottom: 1%;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    color: #000000;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.footer-text {
+    display: block;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #2d3e4e;
+    color: white;
+    border-radius: 0 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
