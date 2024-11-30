@@ -28,8 +28,7 @@ The project proposes extending analysis to social media platforms and including 
 
 ## Installation
 1. Clone the repository:
-   ```bash
-  git clone https://github.com/shrutiupkd/MScDissertation-News-Headlines.git
+   ```bash git clone https://github.com/shrutiupkd/MScDissertation-News-Headlines.git
   
 Create a virtual environment:
 python -m venv venv
