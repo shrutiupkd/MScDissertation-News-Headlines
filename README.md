@@ -25,3 +25,22 @@ Dashboard-based data visualisation
 Future Work:
 The project proposes extending analysis to social media platforms and including additional demographic factors for more granular insights.
 
+
+## Installation
+1. Clone the repository:
+   ```bash
+  git clone https://github.com/shrutiupkd/MScDissertation-News-Headlines.git
+  
+Create a virtual environment:
+python -m venv venv
+
+Activate the virtual environment:
+
+Windows:
+venv\Scripts\activate
+
+macOS/Linux:
+source venv/bin/activate
+
+Install dependencies:
+pip install -r requirements.txt
