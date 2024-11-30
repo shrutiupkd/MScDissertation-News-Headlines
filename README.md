@@ -38,6 +38,11 @@ Activate the virtual environment:
 Windows:
 venv\Scripts\activate
 
+
+Screenshot of Project : 
+![image](https://github.com/user-attachments/assets/9ebb8833-d0c0-4c16-afbd-500940def4ce)
+
+
 macOS/Linux:
 source venv/bin/activate
 
